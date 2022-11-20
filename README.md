@@ -11,13 +11,16 @@ $ npx create-react-app@latest react-click --template typescript
 
 ## Code
 ```TypeScript
-
+// Output alerts when clicked
 const Hello = () => {
     const onClick = () => {
+        // Alert text
         alert('Hello World !')
     }
+    // Button text
     const text = 'Hello React !'
 
+    // Returns div elements with text as children
     return (
         <button onClick={onClick}>
             {text}
@@ -25,6 +28,7 @@ const Hello = () => {
     )
 }
 
+// Export Hello so that it can be called from the outside
 export default Hello
 ```
 
