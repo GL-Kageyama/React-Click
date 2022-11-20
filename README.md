@@ -20,7 +20,7 @@ const Hello = () => {
     // Button text
     const text = 'Hello React !'
 
-    // Returns button elements with text as children
+    // Return the button element
     return (
         <button onClick={onClick}>
             {text}
@@ -45,4 +45,3 @@ https://nodejs.org/en/
 
 Version Check  
 $ node -v  
-
