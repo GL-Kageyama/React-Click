@@ -20,7 +20,7 @@ const Hello = () => {
     // Button text
     const text = 'Hello React !'
 
-    // Returns div elements with text as children
+    // Returns button elements with text as children
     return (
         <button onClick={onClick}>
             {text}
